@@ -1,0 +1,20 @@
+.circle-container {
+    width: 100px !important; /* Adjust the width as needed */
+    height: 100px !important; /* The same value as width to create a square */
+    border: 5px solid #000 !important; /* Border color and width */
+    border-radius: 50% !important; /* Border-radius set to 50% creates a perfect circle */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+.pjustify{
+    text-align: justify! important;
+}
+
+
+@media (min-width: 430px) {
+    .pjustify {
+      text-align: justify;
+    }
+  }

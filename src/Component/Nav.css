@@ -1,0 +1,45 @@
+.nvlink{
+    font-family:Impact;
+    text-shadow: 5px 3px 1px rgb(12, 13, 13);
+    color: white !important;
+    font-size: 3em !important;
+
+}
+
+.change:hover{
+    background-color: #edeff1!important;;
+    color: #ff3939!important;
+    border-radius: 15%;
+}
+
+@keyframes letterDrop {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(5);
+      opacity: 1;
+    }
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .letter {
+    animation: letterDrop 1s ease-in-out forwards;
+    display: inline-block;
+  }
+
+
+
+
+  @media (min-width: 768px) {
+    /* Adjust the width of the navigation bar */
+    .nvwidth {
+      width: 11%!important; /* You can set the desired width */
+      margin: 0 auto!important; /* Center the navbar horizontally */
+    }
+  }

@@ -1,0 +1,16 @@
+.banner {
+    /* background-image: url('https://source.unsplash.com/1600x900/?landscape'); */
+    height:auto !important;
+    width: 100% !important;
+}
+
+.motivation {
+    height:10vh;
+    width: 100%
+}
+
+.myimg{
+    height: 45vh!important;
+    width: auto!important;
+    border-radius: 12%;
+}
